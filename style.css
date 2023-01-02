@@ -55,25 +55,44 @@ h2 {
 }
 
 .menu{
-    list-style: none;
-    position: absolute;
-    top: 10px;
-    right:40px;
+position:fixed;
+background:plum;
     z-index:10;
     cursor:pointer;
+    width:100%;
+margin-top:0;
+top:0;
 }
 
 
 .links{
-    float:left;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+   display:inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: 'Rubik Bubbles', cursive;
-;
     font-size: 30px;
 }
-
+a {
+    text-decoration:none;
+}
+.links:hover{
+    font-size:35px;
+    text-decoration:underline;
+    background-color:white;
+    border:rgb(255, 5, 126) 5px solid;
+    padding:5px;
+    border-radius:15px;
+}
+#writings a {
+    text-decoration:underline !important;
+    color:#000281 !important;
+    font-size:22px;
+}
+#contact{
+    background-color: #debd27;
+}
+.contact_1 h3{
+    display:inline;
+}
 
 
